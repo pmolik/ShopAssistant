@@ -18,7 +18,7 @@ export class CartComponent implements OnInit {
   }
 
   log(){
-    console.log('sortowanie')
+    console.log(JSON.stringify(this.productService.getProductList()))
   }
 
 }
