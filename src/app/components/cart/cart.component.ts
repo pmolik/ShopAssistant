@@ -17,4 +17,8 @@ export class CartComponent implements OnInit {
     this.product = this.productService.getProductList();
   }
 
+  log(){
+    console.log('sortowanie')
+  }
+
 }

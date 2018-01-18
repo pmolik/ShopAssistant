@@ -9,6 +9,7 @@ import {ProductService} from "./services/product.service";
 import { ModalComponent } from './components/modal/modal.component';
 import { AddFormComponent } from './components/add-form/add-form.component';
 import { AccountComponent } from './components/account/account.component';
+import { SortComponent } from './components/sort/sort.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { AccountComponent } from './components/account/account.component';
     CartComponent,
     ModalComponent,
     AddFormComponent,
-    AccountComponent
+    AccountComponent,
+    SortComponent
   ],
   imports: [
     BrowserModule,

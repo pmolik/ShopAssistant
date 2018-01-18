@@ -1,16 +1,19 @@
 <h2>Koszyk</h2>
 <p>Możesz tutaj dodać produkty</p>
-<table class="table table-bordered">
+<app-sort></app-sort>
+<table class="table table-bordered" style="padding-top: 15px">
   <thead>
   <tr>
     <th>Nazwa produktu</th>
     <th>Ilość</th>
+    <th></th>
   </tr>
   </thead>
   <tbody>
   <tr *ngFor="let product of product">
     <td>{{product.name}}</td>
     <td>{{product.quantity}}</td>
+    <td><input type="checkbox"></td>
   </tr>
   </tbody>
 </table>

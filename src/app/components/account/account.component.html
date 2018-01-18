@@ -1,3 +1,5 @@
+<button type="button" class="btn btn-secondary" (click)="copyList()">Przenieś</button>
+
 <h2>Stan konta</h2>
 <p>Pokazuje zaagregowaną ilość produktów które dodano do koszyka</p>
 <table class="table table-bordered">
@@ -8,7 +10,7 @@
   </tr>
   </thead>
   <tbody>
-  <tr *ngFor="let product of product">
+  <tr *ngFor="let product of sortedList">
     <td>{{product.name}}</td>
     <td>{{product.quantity}}</td>
   </tr>
