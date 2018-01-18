@@ -6,27 +6,27 @@
 
   <div class="panel panel-primary">
     <div class="panel-heading">
-      Status
+      Dodaj produkt do koszyka
     </div>
     <div class="panel-body">
-      <h3 style="color: black">{{title}}</h3>
+      <h3 style="color: black"><app-add-form></app-add-form></h3>
     </div>
   </div>
 
-  <button type="button" class="btn btn-secondary"
-          (click)="openModal(template)">Create template modal</button>
 
 
-  <ng-template #template>
-    <div class="modal-header">
-      <h4 class="modal-title pull-left">Modal</h4>
-      <button type="button" class="close pull-right"
-              aria-label="Close" (click)="modalRef.hide()">
-        <span aria-hidden="true">&times;</span>
-      </button>
+  <div class="container">
+    <div class="row">
+      <app-cart></app-cart>
     </div>
-    <div class="modal-body">
-      This is a modal.
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <app-account></app-account>
     </div>
-  </ng-template>
+  </div>
+
+
+
 </div>
