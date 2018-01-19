@@ -11,7 +11,6 @@ export class AccountComponent implements OnInit {
   accountList: Product[] = [];
   productListCopy: Product[] = [];
   sortedList: Product[] = [];
-  j = 0;
 
   constructor(private productService: ProductService) {
   }

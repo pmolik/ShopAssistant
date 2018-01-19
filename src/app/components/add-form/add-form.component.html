@@ -4,15 +4,15 @@
            name="name"
            class="form-control"
            placeholder="Nazwa produktu"
-           [(ngModel)]="newProduct.name">
+           [(ngModel)]="name">
   </div>
   <div class="form-group">
-    <input type="text"
+    <input type="number"
            name="quantity"
            class="form-control"
            placeholder="Ilość"
-           [(ngModel)]="newProduct.quantity">
+           [(ngModel)]="quantity">
   </div>
 
-  <button type="button" class="btn btn-primary" (click)="addProduct()">Dodaj</button>
+  <button type="submit" class="btn btn-primary" (click)="addProduct()">Dodaj</button>
 </form>

@@ -8,15 +8,17 @@ import {Product} from "../../interfaces/product";
   styleUrls: ['./add-form.component.css']
 })
 export class AddFormComponent implements OnInit {
-  newProduct = {
-    name:'',
-    quantity: null
-  };
+  name = '';
+  quantity= 0;
 
   constructor(private productService: ProductService) { }
 
   addProduct(){
-    this.productService.addProduct(this.newProduct);
+    var newProduct = {
+      name: this.name,
+      quantity: this.quantity
+    };
+    this.productService.addProduct(newProduct);
   }
 
   ngOnInit() {
