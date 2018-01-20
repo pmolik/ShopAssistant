@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import {ProductService} from '../../services/product.service'
-import {Product} from "../../interfaces/product";
 
 @Component({
   selector: 'app-add-form',
@@ -19,6 +18,9 @@ export class AddFormComponent implements OnInit {
       quantity: this.quantity
     };
     this.productService.addProduct(newProduct);
+
+    this.name = '';
+    this.quantity = 0;
   }
 
   ngOnInit() {
