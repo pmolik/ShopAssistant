@@ -1,8 +1,44 @@
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" herf="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a herf="#home">Zaloguj się</a></li>
+        <li><a herf="#home">Zarejstruj się</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 <div class="container text-center">
   <div class="jumbotron">
     <h1>Welcome</h1>
     <h2>Angular & Bootstrap Demo</h2>
   </div>
+
+  <carousel>
+    <slide>
+      <img src="../assets/img/shutterstock-227550832_032f.jpg" alt="First slide" style="display: inline; width: 100%;">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>First slide label</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+    </slide>
+    <slide>
+      <img src="../assets/img/owoce_sezonowe-1440x960.jpg" alt="Second slide" style="display: inline; width: 100%;">
+    </slide>
+    <slide>
+      <img src="../assets/img/fruit.jpg" alt="Third slide" style="display: inline; width: 100%;">
+    </slide>
+  </carousel>
 
   <div class="panel panel-primary" style="padding-top: 15px">
     <div class="panel-heading">
@@ -26,5 +62,13 @@
     <app-account></app-account>
   </div>
 
+  <app-modal></app-modal>
 
 </div>
+
+
+<footer class="text-centre">
+  <a class="up-arrow" herf="#myPage" data-toggle="tooltip" title="Na Górę">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+</footer>
