@@ -1,3 +1,4 @@
+//Komponent zawierjący funkcje sortowania oraz przyciski do wykonania tych akcji
 import { Component, OnInit } from '@angular/core';
 import {ProductService} from '../../services/product.service'
 import {Product} from "../../interfaces/product";
@@ -17,7 +18,7 @@ export class SortComponent implements OnInit {
 
   alphabetically(){
     this.product = this.productService.getProductList();
-    this.product.sort((a,b) => a.name.localeCompare(b.name));
+    this.product.sort((a, b) => a.name.localeCompare(b.name));
   }
 
   reverseAlphabetically(){

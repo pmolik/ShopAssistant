@@ -1,19 +1,34 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    Dodaj produkty do koszyka
+  </div>
+  <div class="panel-body">
+    <h3 style="color: black">
+      <app-add-form></app-add-form>
+    </h3>
+  </div>
+</div>
+
 <h2>Koszyk</h2>
-<p>Możesz tutaj dodać produkty</p>
+<p>Tutaj znajdują się dodane produkty</p>
 <app-sort></app-sort>
 <table class="table table-bordered">
   <thead>
   <tr>
     <th>Nazwa produktu</th>
     <th>Ilość</th>
-    <th></th>
+    <th>#</th>
   </tr>
   </thead>
   <tbody>
-  <tr *ngFor="let product of product">
+  <tr *ngFor="let product of productList">
     <td>{{product.name}}</td>
     <td>{{product.quantity}}</td>
-    <td><input type="checkbox"></td>
+    <td>
+      <button type="button" class="btn btn-danger" (click)="deleteProduct(product.id)">Usuń</button>
+    </td>
   </tr>
   </tbody>
 </table>
+
+<app-account></app-account>

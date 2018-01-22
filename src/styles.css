@@ -3,17 +3,72 @@
   padding: 80px 120px;
 }
 
-footer {
-  background-color: #2d2d30;
-  color: #f5f5f5;
-  padding: 32px;
+@media (min-width: 1200px){
+  .container {
+    width: 1109px;
+  }
 }
 
-footer a {
-  color: #f5f5f5;
+.sidebar {
+  position: fixed;
+  top: 51px;
+  bottom: 90px;
+  left: 0;
+  z-index: 1000;
+  display: block;
+  padding: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #f5f5f5;
+  border-right: 1px solid #eee;
 }
 
-footer a:hover {
-  color: #777;
+.nav-sidebar {
+  margin-right: -21px;
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+
+.nav {
+  padding-left: 0;
+  list-style: none;
+}
+
+.nav>li {
+  position: relative;
+  display: block;
+}
+
+.nav-sidebar > li > a {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.nav>li>a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+a {
+  color: #337ab7;
   text-decoration: none;
+}
+
+a {
+  background-color: transparent;
+}
+
+input.ng-valid[required] {
+  border-left: 5px solid #42A948; /* green */
+}
+
+input.ng-invalid {
+  border-left: 5px solid #a94442; /* red */
+}
+
+.error{
+  padding: 12px;
+  background-color: rgba(255, 0, 0, 0.2);
+  color: red;
 }

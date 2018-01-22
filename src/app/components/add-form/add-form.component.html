@@ -1,17 +1,26 @@
 <form class="well">
   <div class="form-group">
     <input type="text"
-           name="name"
+           name="productName"
            class="form-control"
            placeholder="Nazwa produktu"
+           required
            [(ngModel)]="name">
+    <div *ngIf="nameError" class="error">
+      *Podaj nazwę produktu
+    </div>
   </div>
   <div class="form-group">
     <input type="number"
-           name="quantity"
+           name="productQuantity"
            class="form-control"
            placeholder="Ilość"
+           required
+           min="1"
            [(ngModel)]="quantity">
+    <div *ngIf="quantityError" class="error">
+      *Podana ilość nie może być mniejsza od 1
+    </div>
   </div>
 
   <button type="submit" class="btn btn-primary" (click)="addProduct()">Dodaj</button>

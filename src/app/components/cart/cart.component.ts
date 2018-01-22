@@ -1,3 +1,4 @@
+//Komponent wyświetlający dodane przez użytkownika produkty
 import {Component, OnInit} from '@angular/core';
 import {ProductService} from '../../services/product.service'
 import {Product} from "../../interfaces/product";
@@ -9,21 +10,25 @@ import {Product} from "../../interfaces/product";
   providers: []
 })
 export class CartComponent implements OnInit {
-  product: Product[] = [];
+  productList: Product[] = [];
 
   constructor(private productService: ProductService) {
   }
 
   ngOnInit() {
-    this.product = this.productService.getProductList();
+    this.productList = this.productService.getProductList();
   }
 
-  reduce() {
+  deleteProduct(id){
+    this.productService.deleteProduct(id)
+  }
+
+ /* reduce() {
     var list = [this.productService.getProductList().reduce(function (result, item) {
       result[item.name] = (result[item.name] || []).concat(item);
       return result;
     }, {})
     ];
     return list;
-  }
+  }*/
 }
