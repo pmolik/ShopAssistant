@@ -1,3 +1,37 @@
+#Wymagania do instalacji:
+1.Instalacja nodejs
+2. Następnie należy zainstalować AngularCLI przy pomocy nodejs (npm install -g @angular/cli)
+
+#Instrukcje:
+1. Po pobraniu kodu i zainstalowaniu nodejs oraz AngularCLI nalży przy pomocy konsoli wejsc do folderu z projektem 
+(do miejsca w któym znajduje się 'package.json')
+2. Przy pomocy 'npm install' należy zainstalować biblioteki
+3. Odpalić projekt przy pmocy komendy (ng serve) i wejść w przeglądarce (testowane tylko na Google Chrome) na 'locallhost:4200'
+lub użyć komendy 'ng serve --open'
+
+#Błędy
+W razie wystąpienia błędu o kodzie '
+module.js:540
+    throw err;
+    ^
+
+Error: Cannot find module '@angular-devkit/core'
+    at Function.Module.resolveFilename (module.js:538:15)
+    at Function.Module.load (module.js:468:25)
+    at Module.require (module.js:587:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\konra\Desktop\Nowy folder\ShopAssistant\node_modules\@angular-devkit\schematics\src\tree\virtual.js:10:16)
+    at Module.compile (module.js:643:30)
+    at Object.Module.extensions..js (module.js:654:10)
+    at Module.load (module.js:556:32)
+    at tryModuleLoad (module.js:499:12)
+    at Function.Module._load (module.js:491:3)
+' 
+
+należy wpisać komendę 'npm i --no-save @angular-devkit/core@0.0.28' i jeszcze raz uruchomić projekt.
+
+Podobny błąd: 'https://github.com/angular/angular-cli/issues/9283'
+
 # ShopAssistant
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.2.

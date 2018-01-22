@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a27c6fac-c104-4e00-b647-b14a4db51e87" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/app.routes.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/img/fruit.jpg" afterPath="$PROJECT_DIR$/src/assets/img/fruit.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.component.html" afterPath="$PROJECT_DIR$/src/app/app.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.module.ts" afterPath="$PROJECT_DIR$/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/account/account.component.html" afterPath="$PROJECT_DIR$/src/app/components/account/account.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/account/account.component.ts" afterPath="$PROJECT_DIR$/src/app/components/account/account.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/add-form/add-form.component.html" afterPath="$PROJECT_DIR$/src/app/components/add-form/add-form.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/add-form/add-form.component.ts" afterPath="$PROJECT_DIR$/src/app/components/add-form/add-form.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/cart/cart.component.html" afterPath="$PROJECT_DIR$/src/app/components/cart/cart.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/cart/cart.component.ts" afterPath="$PROJECT_DIR$/src/app/components/cart/cart.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/sort/sort.component.html" afterPath="$PROJECT_DIR$/src/app/components/sort/sort.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/sort/sort.component.ts" afterPath="$PROJECT_DIR$/src/app/components/sort/sort.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/interfaces/product.ts" afterPath="$PROJECT_DIR$/src/app/interfaces/product.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/services/product.service.ts" afterPath="$PROJECT_DIR$/src/app/services/product.service.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles.css" afterPath="$PROJECT_DIR$/src/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="ShopAssistant.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,17 +26,27 @@
       <file leaf-file-name="add-form.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/components/add-form/add-form.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
+            <state relative-caret-position="154">
               <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="account.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/components/account/account.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="952">
               <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
               <folding />
             </state>
@@ -123,6 +117,7 @@
         <option value="$PROJECT_DIR$/src/app/components/add-form/add-form.component.ts" />
         <option value="$PROJECT_DIR$/src/app/components/add-form/add-form.component.html" />
         <option value="$PROJECT_DIR$/src/app/components/account/account.component.ts" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -313,6 +308,7 @@
     <property name="SearchEverywhereHistoryKey" value="about&#9;FILE&#9;file://C:/Projects2/ShopAssistant/src/app/components/about/about.component.html&#10;term&#9;ACTION&#9;ActivateTerminalToolWindow&#10;ter&#9;ACTION&#9;ActivateTerminalToolWindow" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="typescript-compiler-editor-notification" value="false" />
+    <property name="editor.config.accepted" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -757,12 +753,12 @@
       <workItem from="1516347606435" duration="21410000" />
       <workItem from="1516460500912" duration="15162000" />
       <workItem from="1516559201594" duration="9142000" />
-      <workItem from="1516608471384" duration="19986000" />
+      <workItem from="1516608471384" duration="21396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92518000" />
+    <option name="totallyTimeSpent" value="93928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -995,14 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/interfaces/product.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1199,18 +1187,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/account/account.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/components/add-form/add-form.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
+        <state relative-caret-position="154">
           <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/account/account.component.ts">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+        <state relative-caret-position="340">
+          <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
           <folding />
         </state>
       </provider>
