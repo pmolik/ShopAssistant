@@ -1,6 +1,5 @@
 //Komponent zawierjący funkcje sortowania oraz przyciski do wykonania tych akcji
-import { Component, OnInit } from '@angular/core';
-import {ProductService} from '../../services/product.service'
+import { Component, OnInit, Input } from '@angular/core';
 import {Product} from "../../interfaces/product";
 
 @Component({
@@ -9,30 +8,26 @@ import {Product} from "../../interfaces/product";
   styleUrls: ['./sort.component.css']
 })
 export class SortComponent implements OnInit {
-  product: Product[] = [];
+  @Input() product: Product[] = [];
 
-  constructor(private productService: ProductService) { }
+  constructor() { }
 
   ngOnInit() {
   }
 
   alphabetically(){
-    this.product = this.productService.getProductList();
     this.product.sort((a, b) => a.name.localeCompare(b.name));
   }
 
   reverseAlphabetically(){
-    this.product = this.productService.getProductList();
     this.product.sort((a,b) => a.name.localeCompare(b.name)).reverse();
   }
 
   quantity(){
-    this.product = this.productService.getProductList();
     this.product.sort((a,b) => a.quantity - b.quantity);
   }
 
   reverseQuantity(){
-    this.product = this.productService.getProductList();
     this.product.sort((a,b) => a.quantity - b.quantity).reverse();
   }
 
